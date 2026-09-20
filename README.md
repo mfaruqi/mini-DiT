@@ -6,7 +6,7 @@ architecture works rather than just reading about it. Based on
 (Peebles & Xie, 2022), with [explainingai-code/DiT-PyTorch](https://github.com/explainingai-code/DiT-PyTorch)
 as a reference when I get stuck.
 
-The goal is to write each function explicityly. For example not using `einops`, no `F.scaled_dot_product_attention` and instead using `reshape` and `permute` to accomplish those tasks.
+The goal is to write each function explicitly. For example not using `einops`, no `F.scaled_dot_product_attention` and instead using `reshape` and `permute` to accomplish those tasks.
 
 ## The idea
 
