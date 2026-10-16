@@ -17,6 +17,8 @@ class LinearNoiseScheduler:
 
         x_t = self.unsqueeze_to(self.sqrt_alpha_cumprod[t], x0.ndim)*x0 + \
             self.unsqueeze_to(self.sqrt_one_minus_alpha_cumprod[t], noise.ndim)*noise
+        
+        return x_t
 
 
     def unsqueeze_to(self, x, ndim):
